@@ -8,15 +8,17 @@
 //#endregion
 
 //#region feature-imports
-import { unimplemented } from "../../dev_deps.ts";
+import { describe, it, unimplemented } from "../../dev_deps.ts";
 //#endregion
 
 //#region fixture-imports
 import {} from "./_fixtures/Test.fixtures.ts";
 
 //#region tests
-Deno.test("{{featureName}}", () => {
+describe("{{featureName}}", () => {
   //  TODO: Implement tests
-  unimplemented();
+  it("should be implemented", () => {
+    unimplemented();
+  });
 });
 //#endregion
