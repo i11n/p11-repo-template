@@ -14,7 +14,7 @@ Describe the proposed changes to the partic11e {{packageName}} package. Explain 
 
 What type of changes are you proposing?
 
-_Put and `x` next to each change type that applies._
+_Put an `x` next to each change type that applies._
 
 - [ ] Bugfix - A non-breaking change that fixes a bug
 - [ ] Feature - A non-breaking new feature that adds functionality
@@ -27,12 +27,12 @@ _Put and `x` next to each change type that applies._
 
 ## Checklist
 
-_Put and `x` next to each item that applies._
+_Put an `x` next to each item that applies._
 
 - [ ] I have read the [CONTRIBUTING](https://github.com/i11n/{{packagename}}/blob/master/CONTRIBUTING.md) guidelines.
-- [ ] Changes pass lint rules and tests locally
 - [ ] Tests written to prove my fix resolves the issue, or that my feature is working as expected
 - [ ] Existing and new tests are passing
+- [ ] Changes pass lint rules
 - [ ] Documentation is updated to reflect the changes
 
 ## Additional Comments
