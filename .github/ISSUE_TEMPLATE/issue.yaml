@@ -1,0 +1,88 @@
+name: Issue report
+description: Report an issue with code
+title: "Issue report: "
+labels: ["type: issue"]
+body:
+  - type: markdown
+    attributes:
+      value: "
+        <img src='https://raw.githubusercontent.com/i11n/.github/main/profile/img/p11/logo.svg' align='left' width='40' height ='40' />
+        Thank you for reporting an issue!
+
+        All efforts to improve partic11e packages are greatly appreciated.
+
+        <br clear='left' />"
+  - type: markdown
+    attributes:
+      value: "
+        🚨 **DO NOT** report security-related issues here. For security-related
+        issues, please report those privately following our
+        [security policy](https://github.com/i11n/.github/security/policy).
+       "
+  - type: textarea
+    attributes:
+      label: Describe the issue
+      description: Please describe the issue you found.
+      placeholder: Provide as much information as possible, explaining what happened and in which context the issue occurred.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe your expectations
+      description: Describe what you expected to happen.
+      placeholder: >
+        Explain why you believe the behavior is anomalous. Include logs and/or fils that you feel may help achieve a speedy resolution.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      id: reproduction
+      label: Reproduce the issue
+      description: What are the steps we can follow to reproduce the issue?
+      placeholder: Provide a step-by-step case of how we can reproduce the issue as clear and concise as possible. 
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: <br />
+  - type: markdown
+    attributes:
+      value: >
+        ## Environment details
+        
+        Development environments differ between developers.  
+        These final fields help us re-create your environment in the event we are unable to reproduce the issue in ours.
+  - type: markdown
+    attributes:
+      value: <br />
+  - type: textarea
+    attributes:
+      label: OS information
+      description: What operating system, version, and architecture is used?
+      placeholder: "
+        Linux - [cat /etc/os-release && uname -a] \n
+        Windows - [wmic os get Caption, Version, BuildNumber, OSArchitecture]
+        "
+  - type: input
+    attributes:
+      label: Package version
+      description: What version of this partic11e module is being used?
+  - type: markdown
+    attributes:
+      value: "
+        You can find this information in the `VERSION` export of the module's root `mod.ts`.
+        
+        `import { VERSION } from \"https://deno.pkg/i11n/{packageName}/mod.ts\";`
+        "
+  - type: markdown
+    attributes:
+      value: <br />
+  - type: input
+    attributes:
+      label: Deno version
+      description: What version of Deno are you using?
+      placeholder: "[deno --version]"
+  - type: markdown
+    attributes:
+      value: If you have corrected the issue yourself, you can submit a pull request immediately after you submit this issue report.
+      
