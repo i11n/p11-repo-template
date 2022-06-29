@@ -9,7 +9,7 @@ body:
         <img src='https://raw.githubusercontent.com/i11n/.github/main/profile/img/p11/logo.svg' align='left' width='40' height ='40' />
         Thank you for requesting a new feature!
 
-        All efforts to improve partic11e packages are greatly appreciated.
+        All efforts to improve the partic11e {{packageName}} package are greatly appreciated.
 
         <br clear='left' />"
   - type: textarea
