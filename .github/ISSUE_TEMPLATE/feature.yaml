@@ -30,6 +30,6 @@ body:
   - type: markdown
     attributes:
       value: <br />
-- type: markdown
+  - type: markdown
     attributes:
       value: If you have built an implementation of this feature yourself, you can submit a pull request immediately after you submit this feature request.
