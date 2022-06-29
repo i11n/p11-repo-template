@@ -1,0 +1,42 @@
+name: Documentation issue report
+description: Report an issue with documentation
+title: "Docs issues report: "
+labels: ["type: docs"]
+body:
+  - type: markdown
+    attributes:
+      value: "
+        <img src='https://raw.githubusercontent.com/i11n/.github/main/profile/img/p11/logo.svg' align='left' width='40' height ='40' />
+        Thank you for reporting a documentation issue!
+
+        All efforts to improve partic11e packages are greatly appreciated.
+
+        <br clear='left' />"
+  - type: textarea
+    attributes:
+      label: Describe the documentation issue
+      description: Please describe the issue you found in the documentation.
+      placeholder: >
+        Explain where the issue is and why you believe it is an issue. Include
+        URLs to the problem documentation and/or provide screenshots
+        identifying the issue. Be sure that you are looking at the
+        documentation from the view of the documentation's target audience.
+
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Propose a solution
+      description: Suggest a solution that would solve the documentation issue.
+      placeholder: >
+        Explain how the documentation issue could be fixed. Be as clear and
+        detailed as possible. Those writing the documentation are often the
+        one's writing the code and, due to their intimate understanding of the
+        features and functionality, may not see things from the view of the
+        documentation's target audience.
+  - type: markdown
+    attributes:
+      value: <br />
+  - type: markdown
+    attributes:
+      value: If you have corrected the documentation yourself, you can submit a pull request immediately after you submit this documentation issue report.
