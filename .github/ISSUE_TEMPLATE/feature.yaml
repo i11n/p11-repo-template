@@ -1,0 +1,35 @@
+name: Feature request
+description: Request a new feature
+title: "Feature request: "
+labels: ["type: feature"]
+body:
+  - type: markdown
+    attributes:
+      value: "
+        <img src='https://raw.githubusercontent.com/i11n/.github/main/profile/img/p11/logo.svg' align='left' width='40' height ='40' />
+        Thank you for requesting a new feature!
+
+        All efforts to improve partic11e libraries are greatly appreciated.
+
+        <br clear='left' />"
+  - type: textarea
+    attributes:
+      label: Describe the feature
+      description: Describe the new feature.
+      placeholder: >
+        Describe the new feature and how it could be implemented.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Use case
+      description: Provide a use case of the requested feature.
+      placeholder: >
+        Explain how the new feature will benefit you in what you are trying to achieve, or what
+        benefit it would provide others.
+  - type: markdown
+    attributes:
+      value: <br />
+- type: markdown
+    attributes:
+      value: If you have built an implementation of this feature yourself, you can submit a pull request immediately after you submit this feature request.
